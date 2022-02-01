@@ -14,10 +14,10 @@ public class P02_CloseAndQuitBrowser {
 
         Thread.sleep(5000);
         // close method any current browser tab that in focus
-        //driver.close();
+        driver.close();
 
         // close all browser window opened by the driver
-        driver.quit();
+        //driver.quit();
 
 
 

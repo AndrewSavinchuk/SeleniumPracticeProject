@@ -13,6 +13,8 @@ public class P01_BasicNavigation {
         WebDriver driver = new ChromeDriver();
 
         //driver.get(url)
+        driver.get("https://google.com");
+        Thread.sleep(3000);
         driver.get("https://tesla.com");
         Thread.sleep(3000);
         // navigate.back()
